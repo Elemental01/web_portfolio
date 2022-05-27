@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Titillium+Web&display=swap');
+
+*{
+    box-sizing: border-box; 
+    color: #777;
+    
+
+}
+.WebContainer{
+    width: 100%;
+    height: auto;
+}
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+html,body{
+    margin: 0;
+    padding: 0;
+   
+}
+pre{
+    font-family: 'Titillium Web', sans-serif;
+}
+.nav ul{
+    margin: 0;
+
+}
+.nav li{
+    display: inline;
+    font-size: 30px;
+    
+}
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.nav ul li  a:hover{
+    background-color: rgba(244,244,244,.4);
+}
+.nav h1{
+     font-family: 'Dancing Script', cursive;;
+}
+.main-nav {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    border-bottom: 1px solid rgba(255,255,255,.4);
+}
+.main-header{
+    height: 185px;
+    background-color: rgba(0,0,0,.5);
+    background-image:url(https://getwallpapers.com/wallpaper/full/9/e/0/651686.jpg) ;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 25px;
+    
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: max-content;
+    /*margin: 0 auto;*/
+    padding: 0 1.5em;
+}
+.section-header{
+    text-align: start;
+    color: grey;
+    font-size: 2.7em;
+    margin-top: 2em;
+   
+}
+.my-image{
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 12px;
+    border-radius: 50%;
+}
+/*.content-image{
+    background-image: url(https://wallpaperaccess.com/full/4462752.png);
+    height: cover;
+}*/
+.main-footer{
+    background-image: url(images/07d6762775664bb504014583624271b0.jpg);
+    color: white;
+    padding: .25em 0;
+    margin: 0%;
+    height: 250px;
+
+}
+.footer-image{
+    height: 50px;
+    width: 5    0px;
+    margin: 12px;
+    border-radius: 50%;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li{
+    padding: 0 .5em;
+}
+.projlist{
+    font-size: 25px;
+    margin: 2%;
+}
