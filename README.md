@@ -1,5 +1,5 @@
 # web_portfolio
 
-Cooking this portfolio page locally for now, aiming to get it hosted till the end of next semester 
+Cooking this Web portfolio , will deploy as soon seems fine to me 
 wish me luck guyzz  ヽ(͡◕ ͜ʖ ͡◕)ﾉ 
 
